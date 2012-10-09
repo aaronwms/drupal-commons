@@ -1,0 +1,22 @@
+diff --git a/modules/contrib/commons_profile_base/commons_profile_base.features.field_instance.inc b/modules/contrib/commons_profile_base/commons_profile_base.features.field_instance.inc
+index 864cfb3..f6e5136 100644
+--- a/modules/contrib/commons_profile_base/commons_profile_base.features.field_instance.inc
++++ b/modules/contrib/commons_profile_base/commons_profile_base.features.field_instance.inc
+@@ -27,7 +27,7 @@ function commons_profile_base_field_default_field_instances() {
+     ),
+     'entity_type' => 'user',
+     'field_name' => 'field_bio',
+-    'label' => 'Bio',
++    'label' => 'About me',
+     'required' => 0,
+     'settings' => array(
+       'text_processing' => '0',
+@@ -114,7 +114,7 @@ function commons_profile_base_field_default_field_instances() {
+ 
+   // Translatables
+   // Included for use with string extractors like potx.
+-  t('Bio');
++  t('About me');
+   t('First Name');
+   t('Last Name');
+ 

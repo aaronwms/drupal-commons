@@ -48,6 +48,9 @@ projects[features][subdir] = "contrib"
 ; Separate fields from field instances.
 ; http://drupal.org/node/1064472#comment-6438406
 projects[features][patch][] = "http://drupal.org/files/1064472_features_field_split_23.patch"
+; Custom patch selection
+projects[features][patch][] = "http://drupal.org/files/1664160-02-catch-field-exception-when-rebuilding.patch"
+projects[features][patch][] = "http://drupal.org/files/features-consolidate-1014522-75.patch"
 
 projects[flag][type] = "module"
 projects[flag][subdir] = "contrib"
@@ -206,6 +209,7 @@ projects[commons_profile_base][subdir] = "contrib"
 projects[commons_profile_base][download][type] = "git"
 projects[commons_profile_base][download][url] = "http://git.drupal.org/project/commons_profile_base.git"
 projects[commons_profile_base][download][branch] = "7.x-3.x"
+projects[commons_profile_base][patch][] = "patches/commons_profile_base.patch"
 
 projects[commons_radioactivity][type] = "module"
 projects[commons_radioactivity][subdir] = "contrib"
